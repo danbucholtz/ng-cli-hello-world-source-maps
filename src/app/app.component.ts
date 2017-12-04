@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  clickMe() {
+    console.log('test test test');
+    (window as any).taco();
+  }
 }
